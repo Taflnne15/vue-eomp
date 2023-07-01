@@ -1,11 +1,14 @@
 <template>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="https://i.postimg.cc/T1NNrY56/tafflogo4.png" alt="logo" width="100px"></a>
+    <a class="navbar-brand" href="#"><img src="https://i.postimg.cc/T1NNrY56/tafflogo4.png" alt="logo" width="200px">
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <img src="https://i.postimg.cc/T1NNrY56/tafflogo4.png" alt="logo" width="200px">
+    
       <div class="navbar-nav">
         <ul class="nav">
           <li><router-link to="/">Home</router-link></li>
