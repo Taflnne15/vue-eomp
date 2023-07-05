@@ -61,8 +61,8 @@ export default createStore({
     }, async fetchEducation (context){
       try{
         let res = await fetch(dataLink);
-        let { Education } = await res.json()
-        context.commit('setEducation', Education)
+        let { education } = await res.json()
+        context.commit('setEducation', education)
       } catch(e){
         console.log(e.message)
       }

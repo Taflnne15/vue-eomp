@@ -57,4 +57,7 @@ export default {
   width: 150px;
   border-radius: 50%;
 }
+.card{
+  box-shadow: 2px 2px 2px 4px black;
+}
 </style>

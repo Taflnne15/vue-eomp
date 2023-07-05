@@ -1,4 +1,5 @@
 <template>
+ 
     <div class="skills">
     <div class="skills-card">
         <div class="card"   v-for="skills in skills"
@@ -7,7 +8,6 @@
   <div class="card-body">
     <h5 class="card-title">{{ skills.name}}</h5>
     <p class="card-text">{{ skills.Level }}</p>
- 
   </div>
 </div>
 
@@ -46,5 +46,8 @@
 .card-img-top{
     width: 200px;
 
+}
+.card{
+  box-shadow: 2px 2px 2px 4px black;
 }
 </style>
