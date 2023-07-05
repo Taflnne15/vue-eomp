@@ -62,7 +62,7 @@
 <style scoped>
 .taff-logo{
 margin-top: 90px;
-border: 4px  solid coral;
+box-shadow:2px 2px 2px 4px black;
 margin-right: 50px;
 }
 .container{

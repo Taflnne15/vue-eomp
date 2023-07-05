@@ -16,6 +16,8 @@
       <h1 class="animate__animated animate__bounce">Taflynne Summer Petersen <br>
       An Aspiring Full Stack Developer <br>
        Life Choices Student</h1>
+       <h3>let Taflynne = 'Welcome to my Digital Portfolio' <br> 
+             console.log(Taflynne)</h3>
 
     </div>
   </div>
@@ -41,7 +43,9 @@ export default {
 }
 h1{
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+}
+h3{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 </style>

@@ -47,4 +47,7 @@
     width: 200px;
 
 }
+.card{
+  box-shadow: 2px 2px 2px 4px black;
+}
 </style>

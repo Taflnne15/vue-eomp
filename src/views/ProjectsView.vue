@@ -38,6 +38,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .projects-card{
   display: grid;
@@ -46,9 +47,16 @@
   width: 70%;
   gap: 3rem;
 }
+.card{
+   box-shadow: 2px 2px 2px 2px black;
+}
 .img-thumbnail{
   width: 200px;
 
 }
+body{
+  background-color: gray;
+}
+
 
 </style>

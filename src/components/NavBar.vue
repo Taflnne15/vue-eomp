@@ -58,7 +58,7 @@ background-color: white;
   height: 100%;
 }
 nav a.router-link-exact-active {
-    color: coral;
+    color:rgb(222, 98, 118)
 }
 
 .navbar-brand{
@@ -69,5 +69,6 @@ nav a.router-link-exact-active {
 .navbar-brand img{
   width: 100%;
   height: 100%;
+  box-shadow: 2px 2px 2px 2px black;
 }
 </style>
