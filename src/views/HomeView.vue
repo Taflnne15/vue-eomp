@@ -13,9 +13,10 @@
     </div>
   
     <div class="col">
-<h1>Taflynne Summer Petersen <br>
+      <h1 class="animate__animated animate__bounce">Taflynne Summer Petersen <br>
       An Aspiring Full Stack Developer <br>
        Life Choices Student</h1>
+
     </div>
   </div>
 </div>

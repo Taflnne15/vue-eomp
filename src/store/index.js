@@ -4,7 +4,9 @@ const dataLink = "https://taflnne15.github.io/vue_eompData/data/"
 export default createStore({
   state: {
     testimonials:null,
-    projects: null
+    projects: null,
+    skills:null,
+    education:null
   }, 
 
   getters: {
@@ -17,6 +19,8 @@ export default createStore({
     },
     setSkills(state, skills){
       state.skills = skills;
+    }, setEducation(state, education){
+      state.education = education
     },
   
     
@@ -54,7 +58,15 @@ export default createStore({
       catch(e){
         console.log(e.message)
       }
-    },
+    }, async fetchEducation (context){
+      try{
+        let res = await fetch(dataLink);
+        let { Education } = await res.json()
+        context.commit('setEducation', Education)
+      } catch(e){
+        console.log(e.message)
+      }
+    }
   }, 
 
   modules: {

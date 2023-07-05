@@ -46,5 +46,9 @@
   width: 70%;
   gap: 3rem;
 }
+.img-thumbnail{
+  width: 200px;
+
+}
 
 </style>
