@@ -3,10 +3,11 @@
     <div class="container text-center">
   <div class="row align-items-center">
     <div class="col">
-      <h1>Hello learn more about me:</h1>
-    <h4>My name is Taflynne Summer Petersen , I am 18 years of age and an aspiring Full Stack Developer. <br>
+      <h1 class="animate__animated animate__bounce">Hello learn more about me:</h1>
+      <h4 class="animate__animated animate__bounce">My name is Taflynne Summer Petersen , I am 18 years of age and an aspiring Full Stack Developer. <br>
           Along with coding, I am a musician as well,my two instruments are bass guitar and guitar.I believe strongly I up skilling one-self.
         I am very optimistic, but yet realistic and I enjoy a good challange where I know growth is certain.</h4>
+
     </div>
   
     <div class="col">

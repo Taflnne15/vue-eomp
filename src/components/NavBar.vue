@@ -1,15 +1,17 @@
 <template>
 <nav class="navbar navbar-expand-lg navbar-line">
   <div class="container-fluid nav-con">
-    <a class="navbar-brand" href="#"><img src="https://i.postimg.cc/T1NNrY56/tafflogo4.png" alt="logo" width="200px">
+    <a class="navbar-brand" href="#"><img src="https://i.postimg.cc/T1NNrY56/tafflogo4.png" alt="logo" >
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-     
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header justify-content-end">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
     
-      <div class="navbar-nav">
+      <div class="offcanvas-body">
         <ul class="nav">
           <li><router-link to="/">Home</router-link></li>
           <li><router-link to="/about">About</router-link></li>
@@ -59,4 +61,13 @@ nav a.router-link-exact-active {
     color: coral;
 }
 
+.navbar-brand{
+  width: 6rem;
+  height: 6rem;
+}
+
+.navbar-brand img{
+  width: 100%;
+  height: 100%;
+}
 </style>
