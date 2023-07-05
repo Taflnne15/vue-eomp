@@ -4,7 +4,7 @@
   <div class="row align-items-center">
     <div class="col">
  <img class="taff-img" src="https://i.postimg.cc/6QXN9vTS/taff-portfolio-img.jpg" alt="img-taff" width="200px
-      " style="border-radius: 50% ;" >
+      " style="border-radius: 50% " >
       <div class="btn">
         <button> About Me </button>
       </div>
@@ -14,7 +14,8 @@
   
     <div class="col">
 <h1>Taflynne Summer Petersen <br>
-      An Aspiring Full Stack Developer</h1>
+      An Aspiring Full Stack Developer <br>
+       Life Choices Student</h1>
     </div>
   </div>
 </div>
@@ -37,6 +38,9 @@ export default {
   margin-top: 90px;
   width: 300px ;
 }
+h1{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
+}
 
 </style>

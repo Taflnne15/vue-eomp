@@ -7,7 +7,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-     <!-- <img src="https://i.postimg.cc/T1NNrY56/tafflogo4.png" alt="logo" width="200px"> -->
+     
     
       <div class="navbar-nav">
         <ul class="nav">
@@ -47,11 +47,6 @@ ul li a{
 }
 .navbar-line{
 background-color: white;
-
-}
-
-.nav-con a{
-  width: 7rem;
   /* border: 1px solid red; */
   height: 7rem;
 }
@@ -59,6 +54,9 @@ background-color: white;
 .nav-con a img{
   width: 100%;
   height: 100%;
+}
+nav a.router-link-exact-active {
+    color: coral;
 }
 
 </style>
