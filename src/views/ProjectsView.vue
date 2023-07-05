@@ -1,22 +1,27 @@
 <template>
+  <div class="projects">
     <div class="projects-card">
-        <div class="card" style="width: 18rem;">
+        <div class="card" v-for="projects in projects"
+        :key="projects.id" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <img :src="projects.image" class="img-thumbnail" alt="...">
+    <h5 class="card-title">{{ projects.project }}</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">{{ projects.builtON }}</h6>
+    <p class="card-text">{{ projects.details }}</p>
+    <a 
+    :href="projects.liveLink" class="card-link"><i class="bi bi-broadcast"></i></a>
+    <a :href="projects.Url" class="card-link"><i class="bi bi-github"></i></a>
   </div>
 </div>
     </div>
+  </div>
 </template>
 
 <script>
     export default {
   computed: {
     projects() {
-      return this.$store.state.Projects;
+      return this.$store.state.projects;
     },
   },
   mounted() {
@@ -28,5 +33,18 @@
 </script>
 
 <style scoped>
+.projects{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects-card{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 50px;
+  width: 70%;
+  gap: 3rem;
+}
 
 </style>

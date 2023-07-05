@@ -15,6 +15,9 @@ export default createStore({
     }, setProjects (state, projects){
       state.projects = projects
     },
+    setSkills(state, skills){
+      state.skills = skills;
+    },
   
     
 
@@ -34,14 +37,24 @@ export default createStore({
     } ,
     async fetchProjects(context){
       try{
-        let res = await fetch (dataLink);
-        let {Projects} = await res.json()
+        let res = await fetch(dataLink);
+        let { Projects } = await res.json()
         context.commit('setProjects', Projects)
       }
       catch(e){
         console.log(e.message)
       }
-    }
+    },
+    async fetchSkills(context){
+      try{
+        let res = await fetch(dataLink);
+        let { Skills } = await res.json()
+        context.commit('setSkills', Skills)
+      }
+      catch(e){
+        console.log(e.message)
+      }
+    },
   }, 
 
   modules: {
