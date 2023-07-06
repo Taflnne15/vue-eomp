@@ -51,6 +51,7 @@ height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: linear-gradient(to right top, #ff65c9, #bd4b8c, #7c3457, #3f1e2b, #000000);
 }
 .card-Testimonial{
   display: grid;

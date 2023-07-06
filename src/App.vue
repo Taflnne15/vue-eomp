@@ -1,6 +1,9 @@
 <template>
    <NavBar/>
-  <router-view/>
+   <!-- <main class="container-fluid"> -->
+    <router-view/>
+  
+ 
   <FooterComp/>
 </template>
 <script>
@@ -18,14 +21,35 @@ export default {
 
 
 </script>
-<style src="@/assets/css/style.css">
+<style >
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  
+}
+/* ------- */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
 }
 
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+/* footer */
+#app {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto minmax(100vh, 1fr) auto;
+}
+#app > *{
+    grid-column: 1/-1;
+}
  
 </style>

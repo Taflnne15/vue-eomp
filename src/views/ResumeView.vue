@@ -1,9 +1,12 @@
 <template>
+  <div class="resume">
   <div class="edu">
     <div class="education-card">
    
-      <div class="card"  v-for="education in education" :key="education.id"  style="width: 18rem;">
-        <img :src="education.image" class="card-img-top" alt="...">
+      <div class="card text-center"  v-for="education in education" :key="education.id"  style="width: 18rem;">
+        <div class="image-place">
+          <img :src="education.image" class="card-img-top" alt="...">
+        </div>
         <div class="card-body">
           <h5 class="card-title">{{education.name  }}</h5>
           <h4 class="card-text">{{ education.Level }}</h4>
@@ -12,6 +15,8 @@
 </div>
 </div>
 </div>
+
+<!-- Experience -->
 <div class="experience">
   <div class="card"   v-for="experience in experience"
         :key="experience.id" style="width: 18rem;">
@@ -22,6 +27,8 @@
     
   </ul>
 </div>
+</div>
+
 </div>
 </template>
 
@@ -44,6 +51,12 @@
 </script>
 
 <style scoped>
+
+:root{
+  --Bground :linear-gradient(to right top, #ff65c9, #bd4b8c, #7c3457, #3f1e2b, #000000);
+}
+
+ 
 .education-card{
   display: grid;
   grid-template-columns: auto auto auto;
@@ -57,8 +70,9 @@
   align-items: center;
 }
 .card{
-background-color: rgb(249, 148, 165);
-box-shadow: 2px 2px 2px 2px black;
+box-shadow: 2px 2px 20px black;
+background-color: black;
+color: white;
 }
 .card-img-top{
   width: 150px;
@@ -75,5 +89,16 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
   .education-card{
   grid-template-columns: auto;
 }
+}
+.resume{
+  background-image: linear-gradient(to right top, #ff65c9, #bd4b8c, #7c3457, #3f1e2b, #000000);
+}
+.experience{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.experience .card{
+  box-shadow: 2px 2px 20px black;
 }
 </style>
