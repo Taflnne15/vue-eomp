@@ -61,4 +61,8 @@
 }
 
 }
+.projects{
+    
+  background-image: linear-gradient(to right top, #ff65c9, #bd4b8c, #7c3457, #3f1e2b, #000000);
+}
 </style>

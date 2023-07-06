@@ -45,7 +45,8 @@ h3 {
 } */
 ul li a{
   text-decoration: none;
-  margin: 5px;  
+  margin: 5px; 
+
 }
 .navbar-line{
 background-color: white;
@@ -58,7 +59,7 @@ background-color: white;
   height: 100%;
 }
 nav a.router-link-exact-active {
-    color: rgb(249, 148, 165);
+    color:#ea79c2;
 }
 
 .navbar-brand{
@@ -71,7 +72,12 @@ nav a.router-link-exact-active {
   height: 100%;
   box-shadow: 2px 2px 2px 2px black;
 }
-nav{
-  background-image: url('https://img.freepik.com/free-vector/black-stars-white-background_1164-915.jpg?w=2000');
+.home{
+  background-image: linear-gradient(to right top, #ea79c2, #f496e8, #edbdfa, #efe0ff, #fefefe);
 }
+nav{
+align-items: center;
+}
+
+
 </style>

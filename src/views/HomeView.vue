@@ -8,12 +8,9 @@
     </div>
   
     <div class="col">
-      <h1 class="animate__animated animate__bounce"> <span class="animate__animated animate__bounce" >Taflynne Summer Petersen</span> <br>
-      An Aspiring Full Stack Developer <br>
-       Life Choices Student</h1>
-       <br>
-      
-             <button class="btn btn-primary"> About Me </button>
+      <h1><span class="animate__animated animate__bounce">Taflynne Summer Petersen</span><br>
+      <span class="code">An Aspiring Full Stack Developer <br>
+       Life Choices Student</span> </h1>       
     </div>
   </div>
 </div>
@@ -33,26 +30,33 @@ export default {
 </script>
 <style>
 .taff-img{
-  margin-top: 90px;
+  margin-top:  90px;
   width: 18rem ;
   box-shadow: 2px 2px 2px 4px rgb(249, 148, 165);
 }
 h1{
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
 color: rgb(249, 148, 165);
-font-size: 1000px;
 
+
+}
+.code{
+  color: white;
 }
 h3{
 font-family:'Courier New', Courier, monospace ;
 }
 span{
-  color:rgb(249, 148, 165);
+  color:white;
+ 
 
 }
- .btn .btn-primary{
-
-  background-color: black;
+ 
+ .home{
+  background-image: linear-gradient(to right top, #ff65c9, #bd4b8c, #7c3457, #3f1e2b, #000000);
  }
 
+h1{
+  color: white;
+}
 </style>

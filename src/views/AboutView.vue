@@ -20,7 +20,7 @@ img{
   margin-top: 100px;
   border-radius: 50% ;
   width: 300px; 
-  box-shadow: 2px 2px 2px 4px rgb(234, 73, 99);
+  box-shadow: 2px 2px 2px 4px #ea79c2;
 }
 h1{
   margin-top: 150px;
@@ -36,12 +36,16 @@ font-family:'Gill Sans', 'Gill Sans MT', 'Calibri' 'Trebuchet MS', sans-serif ;
 }
 
 span{
-  color:rgb(234, 73, 99);
+  color:#ec6bbf;
 }
 @media (width < 600px) {
   .row{
  
   grid-template-columns: auto;
 }
+}
+.about{
+  background-image: linear-gradient(to right top, #ff65c9, #bd4b8c, #7c3457, #3f1e2b, #000000);
+  color: white;
 }
 </style>

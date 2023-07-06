@@ -1,4 +1,5 @@
 <template>
+  <div class="contact">
    <div class="container text-center">
   <div class="row text-center">
     <div class="col text-center">
@@ -25,6 +26,7 @@
     </div>
   </div>
 </div>
+</div>
 </template>
 
 <script>
@@ -45,5 +47,8 @@ width: 300px;
  }
  .row{
   margin-top: 10%;
+ }
+ .contact {
+  background-image: linear-gradient(to right top, #ff65c9, #bd4b8c, #7c3457, #3f1e2b, #000000);
  }
 </style>

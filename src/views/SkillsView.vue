@@ -10,7 +10,6 @@
     <p class="card-text">{{ skills.Level }}</p>
   </div>
 </div>
-
     </div>
 </div>
 
@@ -53,11 +52,14 @@
   box-shadow: 2px 2px 2px 4px black;
 }
 .card-body{
-  background-color:  rgb(249, 148, 165);
+  background-color:  #ea79c2;
 }
 @media (width < 600PX){
   .skills-card{
   grid-template-columns: auto;
 }
+}
+.skills{
+  background-image: linear-gradient(to right top, #ff65c9, #bd4b8c, #7c3457, #3f1e2b, #000000);
 }
 </style>
