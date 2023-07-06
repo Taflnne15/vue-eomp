@@ -13,6 +13,7 @@
 
     </div>
 </div>
+
 </template>
 
 <script>
@@ -44,10 +45,19 @@
   gap: 3rem;  
 }
 .card-img-top{
-    width: 200px;
+    width: 150px;
+   
 
 }
 .card{
   box-shadow: 2px 2px 2px 4px black;
+}
+.card-body{
+  background-color:  rgb(249, 148, 165);
+}
+@media (width < 600PX){
+  .skills-card{
+  grid-template-columns: auto;
+}
 }
 </style>

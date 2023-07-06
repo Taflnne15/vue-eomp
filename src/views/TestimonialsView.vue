@@ -39,14 +39,20 @@ export default {
 </script>
 
 <style scoped>
-
+ 
+.img-card img{
+  object-fit:contain;
+  aspect-ratio: 3/3;
+width: 150px;
+height: 150px;
+}
 .testo{
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.card-Testimonial {
+.card-Testimonial{
   display: grid;
   grid-template-columns: auto auto auto;
   margin-top: 50px;
@@ -55,9 +61,18 @@ export default {
 }
 .card-img-top {
   width: 150px;
-  border-radius: 50%;
+
+
 }
 .card{
   box-shadow: 2px 2px 2px 4px black;
+}
+.card-text{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+@media (width < 600PX){
+  .card-Testimonial{
+   grid-template-columns: auto ;
+}
 }
 </style>
