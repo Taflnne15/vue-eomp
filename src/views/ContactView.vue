@@ -1,7 +1,7 @@
 <template>
    <div class="container text-center">
-  <div class="row align-items-center">
-    <div class="col">
+  <div class="row text-center">
+    <div class="col text-center">
     <img class="taff-logo" src="https://i.postimg.cc/T1NNrY56/tafflogo4.png" alt="">
     </div>
     <div class="col">
@@ -19,23 +19,7 @@
   <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 </div>
-        <!-- <label>
-    Your name:
-    <input type="name" name="name" >
-  </label>
-        <label>
-    Your surname:
-    <input type="surname" name="surname">
-  </label>
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-   your other form fields go here -->
+ 
   <button type="submit">Send</button>
 </form>
     </div>
@@ -51,12 +35,15 @@
 
 <style scoped>
 .taff-logo{
-margin-top: 90px;
+ 
 box-shadow:2px 2px 2px 4px black;
-margin-right: 50px;
+
 width: 300px;
 }
-.container{
-    margin-top: 70px;
-}
+ .col{
+  margin-top: 20px;
+ }
+ .row{
+  margin-top: 10%;
+ }
 </style>

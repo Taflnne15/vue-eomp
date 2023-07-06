@@ -58,7 +58,7 @@ background-color: white;
   height: 100%;
 }
 nav a.router-link-exact-active {
-    color:rgb(222, 98, 118)
+    color: rgb(249, 148, 165);
 }
 
 .navbar-brand{
@@ -70,5 +70,8 @@ nav a.router-link-exact-active {
   width: 100%;
   height: 100%;
   box-shadow: 2px 2px 2px 2px black;
+}
+nav{
+  background-image: url('https://img.freepik.com/free-vector/black-stars-white-background_1164-915.jpg?w=2000');
 }
 </style>

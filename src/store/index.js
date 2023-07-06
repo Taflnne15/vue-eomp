@@ -6,7 +6,8 @@ export default createStore({
     testimonials:null,
     projects: null,
     skills:null,
-    education:null
+    education:null,
+    experience: null,
   }, 
 
   getters: {
@@ -21,7 +22,9 @@ export default createStore({
       state.skills = skills;
     }, setEducation(state, education){
       state.education = education
-    },
+    }, setExperience(state, experience){
+      state.experience = experience;
+    }
   
     
 
@@ -66,7 +69,15 @@ export default createStore({
       } catch(e){
         console.log(e.message)
       }
-    }
+    }, async fetchExperience (context){
+      try{
+        let res = await fetch(dataLink);
+        let { experience } = await res.json()
+        context.commit ('setExperience', experience)
+      } catch(e){
+        console.log(e.message)
+      }
+    },
   }, 
 
   modules: {
