@@ -8,10 +8,10 @@
     </div>
   
     <div class="col">
-      <h1><span class="animate__animated animate__bounce">Hello Welcome Taflynne Summer Petersen Digital Portfolio</span><br>
+      <h1><span >Hello Welcome Taflynne Summer Petersen Digital Portfolio</span><br>
       <span class="code">An Aspiring Full Stack Developer <br>
        Life Choices Student</span> </h1> 
- <div class="typo"></div>     
+       <h2 id="gyutjnlk">Enjoy viewing my Portfolio</h2>
     </div>
 
   </div>
@@ -65,5 +65,23 @@ h1{
   color: white;
 }
 
+@keyframes typing { from { width: 0; } }
+@keyframes blink-caret { 50% { border-color: transparent; } }
+
+h2 { 
+	font: bold 2em monospace;
+  color: white;
+	border-right: .1em solid white;
+	width: calc(0.55em * 14); 
+	width: 26ch;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: typing 2s steps(14, end), -blink-caret .5s step-end infinite
+   alternate;
+} 
+#gyutjnlk {
+  color: white;
+font-family: ;
+}
 
 </style>

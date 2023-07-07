@@ -19,7 +19,7 @@
 <!-- Experience -->
 <div class="experience">
   <div class="card"   v-for="experience in experience"
-        :key="experience.id" style="width: 18rem;">
+        :key="experience.id" style="width: 15rem;">
   <ul class="list-group list-group-flush">
     <li class="list-group-item">{{experience.name}}</li>
     <li class="list-group-item">{{experience.jobType}}</li>
@@ -94,8 +94,10 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
   background-image: linear-gradient(to right top, #ff65c9, #bd4b8c, #7c3457, #3f1e2b, #000000);
 }
 .experience{
-  display: grid;
+  display: flex;
+  justify-content: space-evenly;
   grid-template-columns: auto auto;
+  margin-top: 3rem;
 }
 
 .experience .card{

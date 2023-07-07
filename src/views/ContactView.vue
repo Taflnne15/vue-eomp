@@ -9,12 +9,12 @@
       <form action="https://formspree.io/f/meqbqjyk" method="POST">
         <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label" style="color: white;">Full Name</label>
-  <input type="name" name="fullname" class="form-control" id="exampleFormControlInput1" placeholder="Taflynne Petersen">
+  <input type="name" name="fullname" class="form-control" id="exampleFormControlInput1" placeholder="Taflynne Petersen" required>
 </div>
  
         <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label" style="color: white;">Email address</label>
-  <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
 </div>
 <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label" style="color: white;">Example textarea</label>
