@@ -1,6 +1,6 @@
 <template>
  
-    <div class="skills">
+    <div class="skills pb-5">
     <div class="skills-card">
         <div class="card"   v-for="skills in skills"
         :key="skills.id" style="width: 18rem;" >

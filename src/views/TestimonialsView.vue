@@ -1,5 +1,5 @@
 <template>
-  <div class="testo">
+  <div class="testo pb-5">
     <div class="card-Testimonial">
       <div
         class="card"
@@ -16,7 +16,7 @@
 
         <div class="card-body">
           <p class="card-text">
-            {{ testimonial.name }} {{ testimonial.person }}
+            {{ testimonial.name }}( {{ testimonial.person }})
           </p>
           <p class="card-text">{{ testimonial.Description }}</p>
         </div>
