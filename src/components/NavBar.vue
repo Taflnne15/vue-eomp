@@ -18,8 +18,8 @@
           <li><i class="bi bi-file-person"></i><router-link to="/resume">Resume</router-link></li>
           <li><i class="bi bi-infinity"></i><router-link to="/skills">Skills</router-link></li>
           <li><i class="bi bi-cast"></i><router-link to="/projects">Projects</router-link></li>
-          <li><router-link to="/testimonials">Testimonials</router-link></li>
-          <li><router-link to="/contact">Contact Me</router-link></li>
+          <li><i class="bi bi-people"></i><router-link to="/testimonials">Testimonials</router-link></li>
+          <li><i class="bi bi-telephone-outbound-fill"></i><router-link to="/contact">Contact Me</router-link></li>
         </ul>
       </div>
     </div>
