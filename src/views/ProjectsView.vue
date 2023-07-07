@@ -1,5 +1,5 @@
 <template>
-  <div class="projects">
+  <div class="projects pb-5">
     <div class="projects-card">
         <div class="card" v-for="projects in projects"
         :key="projects.id" style="width: 18rem;">

@@ -1,5 +1,5 @@
 <template>
-  <div class="resume">
+  <div class="resume pb-5">
   <div class="edu">
     <div class="education-card">
    
@@ -18,14 +18,13 @@
 
 <!-- Experience -->
 <div class="experience">
-  <div class="card"   v-for="experience in experience"
-        :key="experience.id" style="width: 15rem;">
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">{{experience.name}}</li>
-    <li class="list-group-item">{{experience.jobType}}</li>
-    <li class="list-group-item">{{experience.description}}</li>
-    
-  </ul>
+  <div class="card" v-for="experience in experience"
+        :key="experience.id" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">{{experience.name}}</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">{{experience.jobType}}</h6>
+    <p class="card-text">{{experience.description}}</p>
+  </div>
 </div>
 </div>
 
@@ -84,17 +83,11 @@ font-weight: 400;
 .list-group{
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
 }
-
-@media (width < 600PX){
-  .education-card{
-  grid-template-columns: auto;
-}
-}
 .resume{
   background-image: linear-gradient(to right top, #ff65c9, #bd4b8c, #7c3457, #3f1e2b, #000000);
 }
 .experience{
-  display: flex;
+  display: grid;
   justify-content: space-evenly;
   grid-template-columns: auto auto;
   margin-top: 3rem;
@@ -103,4 +96,14 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 .experience .card{
   box-shadow: 2px 2px 20px black;
 }
+/* ---------------------- */
+@media (width < 400PX){
+  .education-card{
+  grid-template-columns: auto;
+}
+.experience{
+  grid-template-columns: auto; 
+}
+}
+
 </style>

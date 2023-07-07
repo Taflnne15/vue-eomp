@@ -83,5 +83,9 @@ h2 {
   color: white;
 font-family:'Courier New', Courier, monospace
 }
-
+@media(width < 400px){
+  #gyutjnlk {
+  font-size: 20px;
+}
+}
 </style>
