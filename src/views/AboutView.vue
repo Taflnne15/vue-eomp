@@ -6,10 +6,15 @@
       <h1 class="animate__animated animate__bounce">Hello learn more about me:</h1>
       <h4 class="animate__animated animate__bounce">My name is <span>Taflynne Summer Petersen</span>  , I am 18 years of age and an <span>aspiring Full Stack Developer.</span> <br>
           Along with coding, I am a musician as well,my two instruments are bass guitar and guitar.I believe strongly I up skilling one-self.
-        I am very optimistic, but yet realistic and I enjoy a good challange where I know growth is certain.</h4>
+        I am very optimistic, but yet realistic and I enjoy a good challange where I know growth is certain. 
+         I am conservative person when it comes to traditional values. I enjoy outdoors ,and also libraries.
+         <br>
+         <br> Willing to relocate: Yes
+       </h4>
     </div>
+
     <div class="col">
-      <img src="https://i.postimg.cc/6QXN9vTS/taff-portfolio-img.jpg" alt="img" width="200px">
+      <img src="https://i.postimg.cc/MKg87HZN/20230325-164749.jpg" alt="img" width="200px">
     </div>
   </div>
 </div>

@@ -3,15 +3,17 @@
     <div class="container text-center">
   <div class="row align-items-center">
     <div class="col">
-    <img class="taff-img" src="https://i.postimg.cc/6QXN9vTS/taff-portfolio-img.jpg" alt="img-taff" width="200px" style="border-radius: 50%" >
+    <img class="taff-img" src="https://i.postimg.cc/MKg87HZN/20230325-164749.jpg" alt="img-taff" width="200px" style="border-radius: 50%" >
     
     </div>
   
     <div class="col">
-      <h1><span class="animate__animated animate__bounce">Taflynne Summer Petersen</span><br>
+      <h1><span class="animate__animated animate__bounce">Hello Welcome Taflynne Summer Petersen Digital Portfolio</span><br>
       <span class="code">An Aspiring Full Stack Developer <br>
-       Life Choices Student</span> </h1>       
+       Life Choices Student</span> </h1> 
+ <div class="typo"></div>     
     </div>
+
   </div>
 </div>
   </div>
@@ -35,12 +37,14 @@ export default {
   box-shadow: 2px 2px 2px 4px rgb(249, 148, 165);
 }
 h1{
+
 font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
 color: rgb(249, 148, 165);
 
 
 }
 .code{
+  margin-top: 100px;
   color: white;
 }
 h3{
@@ -48,8 +52,6 @@ font-family:'Courier New', Courier, monospace ;
 }
 span{
   color:white;
- 
-
 }
  
  .home{
@@ -59,4 +61,9 @@ span{
 h1{
   color: white;
 }
+.typo{
+  color: white;
+}
+
+
 </style>
