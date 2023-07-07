@@ -40,12 +40,14 @@ export default {
 h3 {
   margin: 40px 0 0;
 }
-/* .nav li {
-  margin: 5px;  
-} */
+ul li {
+  margin: 5px 20px; 
+  font-weight: 900;
+ 
+}
 ul li a{
   text-decoration: none;
-  margin: 5px; 
+  color: black;
 
 }
 .navbar-line{
@@ -60,6 +62,7 @@ background-color: white;
 }
 nav a.router-link-exact-active {
     color:#ea79c2;
+    text-shadow: 2px 2px 20px#ea79c2;
 }
 
 .navbar-brand{

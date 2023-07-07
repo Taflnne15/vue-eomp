@@ -3,18 +3,22 @@
    <div class="container text-center">
   <div class="row text-center">
     <div class="col text-center">
-    <img class="taff-logo" src="https://i.postimg.cc/T1NNrY56/tafflogo4.png" alt="">
+    <img class="taff-logo" src="https://i.postimg.cc/6Q78zscj/contact-img.jpg" alt="">
     </div>
     <div class="col">
       <form action="https://formspree.io/f/meqbqjyk" method="POST">
         <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label" style="color: white;">Full Name</label>
-  <input type="name" name="fullname" class="form-control" id="exampleFormControlInput1" placeholder="Taflynne Petersen" required>
+  <input type="name" name="fullname" class="form-control" id="exampleFormControlInput1" placeholder="Taflynne Petersen" required oninvalid="this.setCustomValidity('Please insert full name')"
+            oninput="this.setCustomValidity('')"
+          /> >
 </div>
  
         <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label" style="color: white;">Email address</label>
-  <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+  <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required oninvalid="this.setCustomValidity('Please insert full name')"
+            oninput="this.setCustomValidity('')"
+          /> >
 </div>
 <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label" style="color: white;">Example textarea</label>
@@ -57,8 +61,18 @@ width: 300px;
  button{
 background-color: #ff65c9;
 padding: 10px;
+border-radius: 10px;
+width: 20%;
+border: none;
  }
- button :hover{
-  box-shadow: 2px 2px 2px 4px #ff65c9 ;
+ button:hover{
+  box-shadow: 2px 2px 20px black;
  }
+ input:focus{
+  box-shadow: 2px 2px 20px white;
+ }
+ textarea:focus{
+  box-shadow: 2px 2px 20px white;
+ }
+
 </style>

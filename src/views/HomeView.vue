@@ -34,7 +34,7 @@ export default {
 .taff-img{
   margin-top:  90px;
   width: 18rem ;
-  box-shadow: 2px 2px 2px 4px rgb(249, 148, 165);
+  box-shadow: 2px 2px 60px black;
 }
 h1{
 
@@ -64,7 +64,7 @@ h1{
 .typo{
   color: white;
 }
-
+/* CodePen but i changed some things  */
 @keyframes typing { from { width: 0; } }
 @keyframes blink-caret { 50% { border-color: transparent; } }
 
@@ -81,7 +81,7 @@ h2 {
 } 
 #gyutjnlk {
   color: white;
-font-family: ;
+font-family:'Courier New', Courier, monospace
 }
 
 </style>
