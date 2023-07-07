@@ -8,16 +8,16 @@
     <div class="col">
       <form action="https://formspree.io/f/meqbqjyk" method="POST">
         <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+  <label for="exampleFormControlInput1" class="form-label" style="color: white;">Full Name</label>
   <input type="name" name="fullname" class="form-control" id="exampleFormControlInput1" placeholder="Taflynne Petersen">
 </div>
  
         <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <label for="exampleFormControlInput1" class="form-label" style="color: white;">Email address</label>
   <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
 </div>
 <div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+  <label for="exampleFormControlTextarea1" class="form-label" style="color: white;">Example textarea</label>
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 </div>
  
@@ -38,7 +38,7 @@
 <style scoped>
 .taff-logo{
  
-box-shadow:2px 2px 2px 4px black;
+box-shadow:2px 2px 2px 5px black;
 
 width: 300px;
 }
@@ -50,5 +50,15 @@ width: 300px;
  }
  .contact {
   background-image: linear-gradient(to right top, #ff65c9, #bd4b8c, #7c3457, #3f1e2b, #000000);
+ }
+ input{
+  border: #bd4b8c;
+ }
+ button{
+background-color: #ff65c9;
+padding: 10px;
+ }
+ button :hover{
+  box-shadow: 2px 2px 2px 4px #ff65c9 ;
  }
 </style>

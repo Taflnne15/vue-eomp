@@ -52,7 +52,7 @@
   box-shadow: 2px 2px 2px 4px black;
 }
 .card-body{
-  background-color:  #ea79c2;
+  background-color:  #bd4b8c;
 }
 @media (width < 600PX){
   .skills-card{

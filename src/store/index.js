@@ -1,4 +1,5 @@
 
+import {  } from 'vue';
 import { createStore } from 'vuex'
 const dataLink = "https://taflnne15.github.io/vue_eompData/data/"
 export default createStore({
@@ -83,3 +84,5 @@ export default createStore({
   modules: {
   }
 })
+
+
