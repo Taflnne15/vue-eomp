@@ -1,5 +1,5 @@
 <template>
-  <div class="resume pb-5">
+  <div class="resume  pb-5">
   <div class="edu">
     <div class="education-card">
    
